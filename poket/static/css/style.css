@@ -1,0 +1,25 @@
+body{
+    margin-left:20%;
+    margin-right:20%;
+    background-color: rgba(127, 255, 212, 0.489);
+}
+h1{
+    font-weight: 100;
+}
+input,textarea{
+    margin: 10px 0px 0px 0px;
+    background: grey;
+    border: 0;
+    padding: 6px 10px;
+    font-size: 20px;
+    width: 50%;
+}
+input[type = submit]{
+    font-weight: bold;
+    background-color: brown;
+    color: green;
+    width: auto;
+    font-size: medium;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 10px 0px 0px;
+}

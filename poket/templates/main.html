@@ -1,0 +1,19 @@
+{%extends "base.html"%}
+{%block content%}
+<div class="form">
+<h2>оставьте отзыв</h2>
+<form method="post">
+    {%csrf_token%}
+    {{key_f.as_p}}
+    <!-- <p><input type="text" placeholder="введите ваше имя" name = "name"></p>
+    <p><input type="text" placeholder="введите вашу почту" name = "mail"></p>
+    <p><textarea cols="30" rows="10" placeholder="введите ваш отзыв" name = "review"></textarea></p> -->
+    <p><input type="submit" value="послать отзыв"></p>
+</form>
+</div>
+<div class="reviews">
+    <h2>все отзывы</h2>
+    <hr>
+    <p><em>оставил отзыв {{key_n}}</em></p>
+</div>
+{%endblock content%}
