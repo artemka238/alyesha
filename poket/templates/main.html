@@ -14,6 +14,8 @@
 <div class="reviews">
     <h2>все отзывы</h2>
     <hr>
-    <p><em>оставил отзыв {{key_n}}</em></p>
+    {%for i in key_r%}
+    <p><em>оставил отзыв {{i.name}}</em></p>
+    {%endfor%}
 </div>
 {%endblock content%}
